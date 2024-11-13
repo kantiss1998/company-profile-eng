@@ -1,42 +1,62 @@
 [
-    {
-      "name": "Kain Katun Premium",
-      "material": "Katun 100%",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Sifon Lembut",
-      "material": "Sifon Polyester",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Voal Halus",
-      "material": "Voal Cotton",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Ceruti Elegan",
-      "material": "Ceruti Silk",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Katun Premium",
-      "material": "Katun 100%",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Sifon Lembut",
-      "material": "Sifon Polyester",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Voal Halus",
-      "material": "Voal Cotton",
-      "image": "/images/benang.jpg"
-    },
-    {
-      "name": "Kain Ceruti Elegan",
-      "material": "Ceruti Silk",
-      "image": "/images/benang.jpg"
-    }
-  ]
+  {
+    "name": "Ultrafine",
+    "material": "110, 115, 120",
+    "deskripsi": "Bahan hijab trending saat ini. Memiliki sentuhan permukaan lembut dengan kesan glossy.",
+    "image": "https://i.imgur.com/kcKyGUn.jpeg"
+  },
+  {
+    "name": "Ultra Voal",
+    "material": "110",
+    "deskripsi": "Bahan hijab trending saat ini. Sentuhan hijab yang cukup bertulang dan lembut.",
+    "image": "https://i.imgur.com/D9pu2US.jpeg"
+  },
+  {
+    "name": "Paris Japan (belum ada image)",
+    "material": "110, 115",
+    "deskripsi": "Bahan hijab trending saat ini. Sentuhan hijab yang cukup bertulang dan mudah dibentuk.",
+    "image": "/images/benang.jpg"
+  },
+  {
+    "name": "Silky Versace",
+    "material": "110, 115, 120, 125, 130, 135",
+    "deskripsi": "Bahan hijab dengan handfeel yang menyerupai  sutra dan permukaan glossy.",
+    "image": "https://i.imgur.com/mXeaxB6.jpeg"
+  },
+  {
+    "name": "Voal (belum ada image)",
+    "material": "110, 115, 1120, 125, 130, 135",
+    "deskripsi": "Bahan hijab favorit masyarakat Indonesia. Mudah dibentuk dan nyaman dipakai.",
+    "image": "/images/benang.jpg"
+  },
+  {
+    "name": "Voal Tasdia",
+    "material": "110",
+    "deskripsi": "Produk hasil pengembangan bahan voal. Jenis voal ini berbahan tipis, tidak menerawang, dan tidak berbulu.",
+    "image": "https://i.imgur.com/x6uAkV8.jpeg"
+  },
+  {
+    "name": "Fine Bella",
+    "material": "110, 115, 120, 125, 130, 135",
+    "deskripsi": "Bahan hijab yang tipis sehingga menghasilkan kesan sejuk bagi penggunanya.",
+    "image": "https://i.imgur.com/86CbGXx.jpeg"
+  },
+  {
+    "name": "Paris Classic (belum ada image)",
+    "material": "110",
+    "deskripsi": "Bahan hijab favorit masyarakat indonesia. Memiliki sentuhan permukaan kesat yang membuatnya menjadi tidak mudah bergeser saat dikenakan.",
+    "image": "/images/benang.jpg"
+  },
+  {
+    "name": "Rubiya",
+    "material": "110",
+    "deskripsi": "Bahan hijab mirip voal dengan ciri khas tekstur bintik. Membuat looks hijab menjadi lebih elegan.",
+    "image": "https://i.imgur.com/rZWQbL6.jpeg"
+  },
+  {
+    "name": "Voal Marvel",
+    "material": "110",
+    "deskripsi": "Bahan hijab sejenis voal dengan kesan glossy pada permukaan kainnya sehingga menghasilkan looks yang mewah.",
+    "image": "https://i.imgur.com/wt90e08.jpeg"
+  }
+]
