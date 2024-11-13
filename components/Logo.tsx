@@ -19,17 +19,17 @@ export function Logomark({
   filled?: boolean;
 }) {
   return (
-    <div className="relative w-12 h-12">
-      <Image 
-        src={logoSrc} 
-        alt="Logo" 
-        fill
-        style={{ objectFit: "contain" }}
-        {...props} 
-      />
-    </div>
+    <Image
+      src={logoSrc}
+      alt="Logo"
+      width={48}
+      height={32} // Coba mengubah salah satu atau menghapus untuk tes
+      layout="intrinsic"
+      {...props}
+    />
   );
 }
+
 
 export function Logo({
   className,
@@ -39,17 +39,20 @@ export function Logo({
   ...props
 }: LogoProps) {
   return (
-    <div className="flex items-center gap-2">
-      <Image 
-        src={logoSrc} 
-        alt="Logo" 
-        width={48} 
-        height={48}
-        className="w-12 h-12"
-        style={{ objectFit: "contain" }}
+    <div className={clsx(fillOnHover && "group/logo", className)}>
+      <Logomark
+        className="inline-block"
+        invert={invert}
+        filled={filled}
+        {...props}
       />
-      <span className="font-bold text-2xl text-neutral-950">
-        PT KANTI SEHATI SUKSES
+      <span
+        className={clsx(
+          "inline-block ml-2",
+          invert ? "text-white" : "text-neutral-950"
+        )}
+      >
+        <span className=" font-bold text-2xl ml-2 text-neutral-950">PT KANTI SEHATI SUKSES</span>
       </span>
     </div>
   );

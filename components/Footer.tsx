@@ -144,7 +144,7 @@ export function Footer({ className }: FooterProps) {
             <Logo className="h-8" fillOnHover />
           </Link>
           <p className="text-sm text-neutral-700 pt-5">
-            © Bembemcar {new Date().getFullYear()}
+            © Kanti Sehati Sukses {new Date().getFullYear()}
           </p>
         </div>
         )}
