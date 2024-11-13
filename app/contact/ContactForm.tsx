@@ -140,22 +140,22 @@ export function ContactForm() {
   const services = ["Digital Printing", "Finishing Hijab", "Garment"];
 
   const products = [
-    "Kain Polos",
-    "Kain Digital Print",
-    "Hijab Polos",
-    "Hijab Digital Print",
+    "Plain Fabric",
+    "Digital Print Fabric",
+    "Plain Hijab",
+    "Digital Print Hijab",
     "Moslemwear",
-    "Hijab+ Techlonogy",
+    "Hijab+ Technology",
   ];
 
   return (
     <FadeIn className="lg:order-last">
       <form onSubmit={handleSubmit}>
-      <h2 className="font-display text-center font-semibold text-neutral-950">
-    There's nothing wrong with asking!
-    <br />
-    Please fill out the following form for more information.
-</h2>
+        <h2 className="font-display text-center font-semibold text-neutral-950">
+          There's nothing wrong with asking!
+          <br />
+          Please fill out the following form for more information.
+        </h2>
 
         <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
           <TextInput
@@ -265,7 +265,7 @@ export function ContactForm() {
           <div className="border border-neutral-300 px-6 py-8 first:rounded-t-2xl last:rounded-b-2xl">
             <fieldset>
               <legend className="text-base/6 text-neutral-500">
-              Prefer to be contacted via
+                Prefer to be contacted via
               </legend>
               <div className="mt-6 flex gap-8">
                 <RadioInput
