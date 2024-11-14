@@ -2,61 +2,61 @@
   {
     "name": "Ultrafine",
     "material": "110, 115, 120",
-    "description": "A trending hijab fabric with a soft surface touch and a glossy finish.",
+    "deskripsi": "A trending hijab fabric with a soft surface touch and a glossy finish.",
     "image": "https://i.imgur.com/kcKyGUn.jpeg"
   },
   {
     "name": "Ultra Voal",
     "material": "110",
-    "description": "A trending hijab fabric with a slightly textured and soft feel.",
+    "deskripsi": "A trending hijab fabric with a slightly textured and soft feel.",
     "image": "https://i.imgur.com/D9pu2US.jpeg"
   },
   {
     "name": "Paris Japan (no image)",
     "material": "110, 115",
-    "description": "A trending hijab fabric with a textured feel and easy to shape.",
+    "deskripsi": "A trending hijab fabric with a textured feel and easy to shape.",
     "image": "/images/benang.jpg"
   },
   {
     "name": "Silky Versace",
     "material": "110, 115, 120, 125, 130, 135",
-    "description": "A hijab fabric with a silk-like handfeel and a glossy surface.",
+    "deskripsi": "A hijab fabric with a silk-like handfeel and a glossy surface.",
     "image": "https://i.imgur.com/mXeaxB6.jpeg"
   },
   {
     "name": "Voal (no image)",
     "material": "110, 115, 1120, 125, 130, 135",
-    "description": "A popular hijab fabric in Indonesia. Easy to shape and comfortable to wear.",
+    "deskripsi": "A popular hijab fabric in Indonesia. Easy to shape and comfortable to wear.",
     "image": "/images/benang.jpg"
   },
   {
     "name": "Voal Tasdia",
     "material": "110",
-    "description": "A development of the voile fabric. It is thin, non-see-through, and lint-free.",
+    "deskripsi": "A development of the voile fabric. It is thin, non-see-through, and lint-free.",
     "image": "https://i.imgur.com/x6uAkV8.jpeg"
   },
   {
     "name": "Fine Bella",
     "material": "110, 115, 120, 125, 130, 135",
-    "description": "A thin hijab fabric that provides a cool feeling for the wearer.",
+    "deskripsi": "A thin hijab fabric that provides a cool feeling for the wearer.",
     "image": "https://i.imgur.com/86CbGXx.jpeg"
   },
   {
     "name": "Paris Classic (no image)",
     "material": "110",
-    "description": "A popular hijab fabric in Indonesia. It has a rough surface texture, making it less likely to slip when worn.",
+    "deskripsi": "A popular hijab fabric in Indonesia. It has a rough surface texture, making it less likely to slip when worn.",
     "image": "/images/benang.jpg"
   },
   {
     "name": "Rubiya",
     "material": "110",
-    "description": "A hijab fabric similar to voile with distinctive textured dots. It gives the hijab a more elegant look.",
+    "deskripsi": "A hijab fabric similar to voile with distinctive textured dots. It gives the hijab a more elegant look.",
     "image": "https://i.imgur.com/rZWQbL6.jpeg"
   },
   {
     "name": "Voal Marvel",
     "material": "110",
-    "description": "A type of voile fabric with a glossy finish on its surface, creating a luxurious appearance.",
+    "deskripsi": "A type of voile fabric with a glossy finish on its surface, creating a luxurious appearance.",
     "image": "https://i.imgur.com/wt90e08.jpeg"
   }
 ]

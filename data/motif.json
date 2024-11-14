@@ -2,37 +2,37 @@
   {
     "name": "Voal Premium",
     "material": "110 cm x 110 cm",
-    "description": "This fabric is extremely smooth and soft, providing comfort when worn.",
+    "deskripsi": "This fabric is extremely smooth and soft, providing comfort when worn.",
     "image": "https://i.imgur.com/nV6tcTy.jpeg"
   },
   {
     "name": "Ultra Fine",
     "material": "110 cm x 110 cm",
-    "description": "With its smooth texture and ability to absorb color well, Ultra Fine fabric often gives an elegant and luxurious appearance, making it a popular choice for formal wear or special outfits.",
+    "deskripsi": "With its smooth texture and ability to absorb color well, Ultra Fine fabric often gives an elegant and luxurious appearance, making it a popular choice for formal wear or special outfits.",
     "image": "https://i.imgur.com/EXhHbkc.jpeg"
   },
   {
     "name": "Voal Ribstop",
     "material": "110 cm x 110 cm",
-    "description": "Although strong, Voal Ribstop is still lightweight and breathable, making it comfortable to wear in tropical climates or hot weather.",
+    "deskripsi": "Although strong, Voal Ribstop is still lightweight and breathable, making it comfortable to wear in tropical climates or hot weather.",
     "image": "https://i.imgur.com/eOPiRjK.jpeg"
   },
   {
     "name": "Poly PE",
     "material": "110 cm x 110 cm",
-    "description": "This fabric is more resistant to wrinkles, so the hijab stays neat and doesn’t require much ironing after washing.",
+    "deskripsi": "This fabric is more resistant to wrinkles, so the hijab stays neat and doesn’t require much ironing after washing.",
     "image": "https://i.imgur.com/NapuiUK.jpeg"
   },
   {
     "name": "Voal Basic",
     "material": "110 cm x 110 cm",
-    "description": "This fabric offers comfort, easy maintenance, and practicality in use.",
+    "deskripsi": "This fabric offers comfort, easy maintenance, and practicality in use.",
     "image": "https://i.imgur.com/BwjkHzT.jpeg"
   },
   {
     "name": "Voal Ultra Silky",
     "material": "110 cm x 110 cm",
-    "description": "Voal Ultra Silky is easier to shape and style, making it ideal for various hijab styles.",
+    "deskripsi": "Voal Ultra Silky is easier to shape and style, making it ideal for various hijab styles.",
     "image": "https://i.imgur.com/94B5M67.jpeg"
   }
 ]

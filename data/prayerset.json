@@ -2,37 +2,37 @@
   {
     "name": "Armany Silk",
     "material": "All Size",
-    "description": "This material provides maximum comfort, a luxurious appearance, and easy maintenance.",
+    "deskripsi": "This material provides maximum comfort, a luxurious appearance, and easy maintenance.",
     "image": "https://i.imgur.com/yrvUzPT.jpeg"
   },
   {
     "name": "Taslan",
     "material": "All Size",
-    "description": "Despite being water-resistant, Taslan fabric offers good air circulation, making it breathable and comfortable to wear in hot weather.",
+    "deskripsi": "Despite being water-resistant, Taslan fabric offers good air circulation, making it breathable and comfortable to wear in hot weather.",
     "image": "https://i.imgur.com/FJtcX4a.jpeg"
   },
   {
     "name": "Balo telli",
     "material": "45 x 90 cm",
-    "description": "A very practical and comfortable choice for daily use. The soft, lightweight, durable, and easy-to-care-for balotelli fabric makes this prayer mat ideal for regular use.",
+    "deskripsi": "A very practical and comfortable choice for daily use. The soft, lightweight, durable, and easy-to-care-for balotelli fabric makes this prayer mat ideal for regular use.",
     "image": "https://i.imgur.com/PyNe5aN.jpeg"
   },
   {
     "name": "Polyester Microfiber",
     "material": "220 cm x 120 cm",
-    "description": "A lightweight, durable, and easy-to-care-for fabric.",
+    "deskripsi": "A lightweight, durable, and easy-to-care-for fabric.",
     "image": "https://i.imgur.com/ZeiVnvv.jpeg"
   },
   {
     "name": "Rayon",
     "material": "All Size",
-    "description": "Rayon has excellent moisture absorption properties, making rayon caps very comfortable, especially in hot weather or during long hours of activity. It helps keep the head dry and comfortable even when worn for extended periods.",
+    "deskripsi": "Rayon has excellent moisture absorption properties, making rayon caps very comfortable, especially in hot weather or during long hours of activity. It helps keep the head dry and comfortable even when worn for extended periods.",
     "image": "https://i.imgur.com/3hIYihx.jpeg"
   },
   {
     "name": "Rayon Super",
     "material": "All Size",
-    "description": "Super rayon has a smoother texture, giving clothing or accessories made from it a neater and more polished appearance. Even after washing, the fabric maintains its look and doesn't wrinkle easily.",
+    "deskripsi": "Super rayon has a smoother texture, giving clothing or accessories made from it a neater and more polished appearance. Even after washing, the fabric maintains its look and doesn't wrinkle easily.",
     "image": "https://i.imgur.com/Hvrzcv2.jpeg"
   }
 ]

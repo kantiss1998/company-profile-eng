@@ -61,7 +61,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           <h3 className="text-lg font-semibold text-gray-900">
             {product.name}
           </h3>
-          <p className="mt-2 text-sm text-gray-500">Ukuran: {product.material}</p>
+          <p className="mt-2 text-sm text-gray-500">Size: {product.material}</p>
         </div>
       </motion.div>
       
@@ -118,7 +118,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
                   >
-                    Ukuran: {product.material}
+                    Size: {product.material}
                   </motion.p>
                   <motion.h3 
                     className="text-xl font-semibold mb-2"

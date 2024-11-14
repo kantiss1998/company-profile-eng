@@ -2,25 +2,25 @@
   {
     "name": "Baby Doll",
     "material": "180 cm x 75 cm",
-    "description": "Ideal for all activities, whether formal, daily wear, or special occasions.",
+    "deskripsi": "Ideal for all activities, whether formal, daily wear, or special occasions.",
     "image": "https://i.imgur.com/3lWK3W4.jpeg"
   },
   {
     "name": "Jersey",
     "material": "180 cm x 75 cm",
-    "description": "Jersey fabric is elastic and lightweight. The combination of both properties provides outstanding comfort, making it perfect for both everyday wear and formal events.",
+    "deskripsi": "Jersey fabric is elastic and lightweight. The combination of both properties provides outstanding comfort, making it perfect for both everyday wear and formal events.",
     "image": "https://i.imgur.com/sX74S0y.jpeg"
   },
   {
     "name": "Spandek Balon",
     "material": "All Size",
-    "description": "Made from elastic and flexible material, often containing spandex (or elastane), this fabric stretches and offers a comfortable fit.",
+    "deskripsi": "Made from elastic and flexible material, often containing spandex (or elastane), this fabric stretches and offers a comfortable fit.",
     "image": "https://i.imgur.com/OV1KLvU.jpeg"
   },
   {
     "name": "Kaos Rayon",
     "material": "All Size",
-    "description": "Perfect for those looking for a practical, comfortable, and cool hijab for daily wear.",
+    "deskripsi": "Perfect for those looking for a practical, comfortable, and cool hijab for daily wear.",
     "image": "https://i.imgur.com/mluhK3C.jpeg"
   }
 ]
