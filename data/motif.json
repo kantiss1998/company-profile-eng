@@ -1,62 +1,38 @@
 [
   {
-    "name": "Ultrafine",
-    "material": "110, 115, 120",
-    "deskripsi": "Bahan hijab trending saat ini. Memiliki sentuhan permukaan lembut dengan kesan glossy.",
-    "image": "https://i.imgur.com/kcKyGUn.jpeg"
+    "name": "Voal Premium",
+    "material": "110 cm x 110 cm",
+    "description": "This fabric is extremely smooth and soft, providing comfort when worn.",
+    "image": "https://i.imgur.com/nV6tcTy.jpeg"
   },
   {
-    "name": "Ultra Voal",
-    "material": "110",
-    "deskripsi": "Bahan hijab trending saat ini. Sentuhan hijab yang cukup bertulang dan lembut.",
-    "image": "https://i.imgur.com/D9pu2US.jpeg"
+    "name": "Ultra Fine",
+    "material": "110 cm x 110 cm",
+    "description": "With its smooth texture and ability to absorb color well, Ultra Fine fabric often gives an elegant and luxurious appearance, making it a popular choice for formal wear or special outfits.",
+    "image": "https://i.imgur.com/EXhHbkc.jpeg"
   },
   {
-    "name": "Paris Japan (belum ada image)",
-    "material": "110, 115",
-    "deskripsi": "Bahan hijab trending saat ini. Sentuhan hijab yang cukup bertulang dan mudah dibentuk.",
-    "image": "/images/benang.jpg"
+    "name": "Voal Ribstop",
+    "material": "110 cm x 110 cm",
+    "description": "Although strong, Voal Ribstop is still lightweight and breathable, making it comfortable to wear in tropical climates or hot weather.",
+    "image": "https://i.imgur.com/eOPiRjK.jpeg"
   },
   {
-    "name": "Silky Versace",
-    "material": "110, 115, 120, 125, 130, 135",
-    "deskripsi": "Bahan hijab dengan handfeel yang menyerupai  sutra dan permukaan glossy.",
-    "image": "https://i.imgur.com/mXeaxB6.jpeg"
+    "name": "Poly PE",
+    "material": "110 cm x 110 cm",
+    "description": "This fabric is more resistant to wrinkles, so the hijab stays neat and doesn’t require much ironing after washing.",
+    "image": "https://i.imgur.com/NapuiUK.jpeg"
   },
   {
-    "name": "Voal (belum ada image)",
-    "material": "110, 115, 1120, 125, 130, 135",
-    "deskripsi": "Bahan hijab favorit masyarakat Indonesia. Mudah dibentuk dan nyaman dipakai.",
-    "image": "/images/benang.jpg"
+    "name": "Voal Basic",
+    "material": "110 cm x 110 cm",
+    "description": "This fabric offers comfort, easy maintenance, and practicality in use.",
+    "image": "https://i.imgur.com/BwjkHzT.jpeg"
   },
   {
-    "name": "Voal Tasdia",
-    "material": "110",
-    "deskripsi": "Produk hasil pengembangan bahan voal. Jenis voal ini berbahan tipis, tidak menerawang, dan tidak berbulu.",
-    "image": "https://i.imgur.com/x6uAkV8.jpeg"
-  },
-  {
-    "name": "Fine Bella",
-    "material": "110, 115, 120, 125, 130, 135",
-    "deskripsi": "Bahan hijab yang tipis sehingga menghasilkan kesan sejuk bagi penggunanya.",
-    "image": "https://i.imgur.com/86CbGXx.jpeg"
-  },
-  {
-    "name": "Paris Classic (belum ada image)",
-    "material": "110",
-    "deskripsi": "Bahan hijab favorit masyarakat indonesia. Memiliki sentuhan permukaan kesat yang membuatnya menjadi tidak mudah bergeser saat dikenakan.",
-    "image": "/images/benang.jpg"
-  },
-  {
-    "name": "Rubiya",
-    "material": "110",
-    "deskripsi": "Bahan hijab mirip voal dengan ciri khas tekstur bintik. Membuat looks hijab menjadi lebih elegan.",
-    "image": "https://i.imgur.com/rZWQbL6.jpeg"
-  },
-  {
-    "name": "Voal Marvel",
-    "material": "110",
-    "deskripsi": "Bahan hijab sejenis voal dengan kesan glossy pada permukaan kainnya sehingga menghasilkan looks yang mewah.",
-    "image": "https://i.imgur.com/wt90e08.jpeg"
+    "name": "Voal Ultra Silky",
+    "material": "110 cm x 110 cm",
+    "description": "Voal Ultra Silky is easier to shape and style, making it ideal for various hijab styles.",
+    "image": "https://i.imgur.com/94B5M67.jpeg"
   }
 ]
