@@ -5,9 +5,16 @@ import { Container } from '@/components/Container';
 import { PageIntro } from '@/components/PageIntro';
 import GalleryGrid from '@/components/GaleryGrid';
 
-// Data gallery yang diambil dari server
-export const fetchGalleryData = async () => {
-  return [
+
+// Menandai komponen sebagai server
+export const metadata = {
+  title: 'Gallery',
+  description: 'We proudly present various innovations and leading technologies that we offer.',
+};
+
+// Komponen utama server
+export default async function Gallery() {
+  const galleryImages = [
     { 
       src: "https://i.imgur.com/rMXJE8R.jpeg", 
       alt: 'Cutting Roll', 
@@ -79,20 +86,8 @@ export const fetchGalleryData = async () => {
       src: "https://i.imgur.com/ZvpMQcy.jpeg", 
       alt: 'Warehouse', 
       description: "Our fully optimized Warehouse facility is designed to efficiently store and manage raw materials, in-process items, and finished goods. With a robust inventory management system and dedicated sections for each product type, it ensures smooth logistical operations and timely deliveries." 
-    },
-  ];
-};
-
-// Menandai komponen sebagai server
-export const metadata = {
-  title: 'Gallery',
-  description: 'We proudly present various innovations and leading technologies that we offer.',
-};
-
-// Komponen utama server
-export default async function Gallery() {
-  const galleryImages = await fetchGalleryData(); // Mengambil data dari server
-
+    }
+  ]
   return (
     <>
       <PageIntro eyebrow="Gallery" title="Technology and Reliability">
