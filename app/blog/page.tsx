@@ -13,7 +13,7 @@ export const metadata = {
 };
 
 // Komponen utama server
-export default async function Gallery() {
+export default function Gallery() {
   const galleryImages = [
     { 
       src: "https://i.imgur.com/rMXJE8R.jpeg", 
@@ -97,7 +97,7 @@ export default async function Gallery() {
       </PageIntro>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <GalleryGrid images={galleryImages} /> {/* Render komponen klien */}
+        <GalleryGrid images={galleryImages} />
       </Container>
 
       <ContactSection />
