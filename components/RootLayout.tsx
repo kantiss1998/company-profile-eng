@@ -20,7 +20,7 @@ import { GridPattern } from "@/components/GridPattern";
 import { Logo, Logomark } from "@/components/Logo";
 import { Offices } from "@/components/Offices";
 import { SocialMedia } from "@/components/SocialMedia";
-import videoFile from "@/images/BgWeb.mp4"
+import videoFile from "@/images/BgWeb.mp4";
 
 const RootLayoutContext = createContext<{
   logoHovered: boolean;
@@ -288,14 +288,17 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
           className="relative isolate flex w-full flex-col pt-9"
         >
           <div className="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full">
-            {pathname === "/" ? (
-              <video
-                className="absolute top-0 left-0 h-full w-full object-cover"
-                autoPlay
-                loop
-                muted
-                src="https://kantiss.com/id/themes/kantiss/video/BgWeb.mp4"
-              ></video>
+            {pathname === "/" || pathname === "/work/motif" ? (
+              <div
+                className="absolute top-0 left-0 h-full w-full bg-cover bg-center"
+                style={{
+                  backgroundImage: `url(${
+                    pathname === "/"
+                      ? "https://kantiss.com/id/themes/kantiss/video/BgWeb.mp4"
+                      : "https://sample.kantiss.com/assets/banner2-BLpg9sK7.jpg"
+                  })`,
+                }}
+              ></div>
             ) : (
               <GridPattern
                 className="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"

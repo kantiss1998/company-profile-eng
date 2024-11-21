@@ -18,7 +18,7 @@ const categoryDescriptions: Record<string, string> = {
   polos:
     "Good news for those of you who want to create your own hijab brand! Kantiss offers plain hijabs with customizable finishing according to your preferences. These hijabs can also be combined with accessories such as metal logos, single plastic pieces, pouches, boxes, and other packaging that will be provided by Kantiss.",
   motif:
-    "At PT. Kanti Sehati Sukses, we take pride in our collection of patterned fabrics that combine art and innovation. Each pattern is designed to reflect the beauty of culture and modern trends, making each product a unique style statement.",
+    "At PT. Kanti Sehati Sukses, we take pride in our collection of patterned fabrics that combine art and innovation. Each pattern is designed to reflect the beauty of culture and modern trends, making each product a unique style statement. Here is various ready for print fabric materials that we have :",
   pashminaBergo:
     "Our Pashmina and Bergo are specially designed to provide softness and luxury in every strand of fabric. At PT. Kanti Sehati Sukses, we ensure that each pashmina is not only beautiful but also comfortable to wear for various occasions.",
   prayerset:
