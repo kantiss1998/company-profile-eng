@@ -25,7 +25,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       setTimeout(() => setAnimationClass('popup-active'), 1000);
     } else {
       setAnimationClass('');
-      setTimeout(() => setIsPopupVisible(false), 300); // Match transition duration
+      setTimeout(() => setIsPopupVisible(false), 300);
     }
   };
 
@@ -76,7 +76,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             onClick={togglePopup}
           >
             <motion.div 
-              className="bg-white rounded-lg p-8 max-w-2xl w-full max-h-[90vh] overflow-y-auto popup-content"
+              className="bg-white rounded-lg p-8 w-[90vw] max-w-6xl h-[90vh] overflow-hidden popup-content"
               onClick={(e) => e.stopPropagation()}
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
@@ -92,20 +92,20 @@ export default function ProductCard({ product }: ProductCardProps) {
               >
                 ✕
               </motion.button>
-              <div className="flex flex-col md:flex-row gap-8">
+              <div className="flex flex-col md:flex-row gap-8 h-full">
                 <motion.div 
-                  className="md:w-1/2"
+                  className="md:w-2/3 h-full flex items-center justify-center"
                   layoutId={`product-image-${product.name}`}
                 >
                   <Image
                     src={product.image}
                     alt={product.name}
-                    width={500}
-                    height={500}
-                    className="w-full h-auto object-cover rounded-lg"
+                    width={2000}  // Tambah ukuran secara signifikan
+                    height={2000} 
+                    className="max-w-full max-h-full object-contain rounded-lg"
                   />
                 </motion.div>
-                <div className="md:w-1/2">
+                <div className="md:w-1/3 overflow-y-auto pr-4">
                   <motion.h2 
                     className="text-2xl font-bold mb-4"
                     layoutId={`product-name-${product.name}`}
@@ -169,4 +169,3 @@ export default function ProductCard({ product }: ProductCardProps) {
     </div>
   );
 }
-
