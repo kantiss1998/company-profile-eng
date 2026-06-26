@@ -24,7 +24,6 @@ export function Logomark({
       alt="Logo"
       width={48}
       height={32} // Coba mengubah salah satu atau menghapus untuk tes
-      layout="intrinsic"
       {...props}
     />
   );

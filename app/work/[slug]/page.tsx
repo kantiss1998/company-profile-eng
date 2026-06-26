@@ -8,6 +8,7 @@ import motif from "@/data/motif.json";
 import pashminaBergo from "@/data/phasmina.json";
 import prayerset from "@/data/prayerset.json";
 import apparel from "@/data/apparell.json";
+import rfp from "@/data/rfp.json";
 import ProductCard from "./ProductCard";
 
 interface WorkPageProps {
@@ -25,6 +26,8 @@ const categoryDescriptions: Record<string, string> = {
     "Our prayer set is designed with meticulous attention to provide maximum comfort during worship. At PT. Kanti Sehati Sukses, we ensure each prayer set is made from the best materials, offering peace in worship and luxury in design.",
   apparel:
     "Our apparel collection is designed to meet everyday fashion needs. At PT. Kanti Sehati Sukses, we prioritize comfort and style, ensuring each of our products can be paired with various styles, from casual to formal.",
+  rfp:
+    "Discover our Ready For Print (RFP) fabrics. Perfect for your custom designs, these high-quality fabrics are specially prepared to absorb vibrant prints with sharp details and excellent color retention.",
 };
 
 export async function generateMetadata({
@@ -49,7 +52,9 @@ export default function WorkPage({ params }: WorkPageProps) {
     title = "Digital Print Patterned Hijab"
   } else if (title === "pashminaBergo") {
     title = "Pashmina & Bergo"
-  } 
+  } else if (title === "Rfp") {
+    title = "Ready For Print (RFP)"
+  }
 
   const productData: Record<string, any[]> = {
     polos: polos,
@@ -57,6 +62,7 @@ export default function WorkPage({ params }: WorkPageProps) {
     pashminaBergo: pashminaBergo,
     prayerset: prayerset,
     apparel: apparel,
+    rfp: rfp,
   };
   const products = productData[params.slug] || [];
 

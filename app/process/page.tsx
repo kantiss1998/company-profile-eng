@@ -9,9 +9,7 @@ import { PageIntro } from "@/components/PageIntro";
 import { SectionIntro } from "@/components/SectionIntro";
 import { StylizedImage } from "@/components/StylizedImage";
 import { TagList, TagListItem } from "@/components/TagList";
-import imageLaptop from "@/images/laptop.jpg";
-import imageMeeting from "@/images/meeting.jpg";
-import imageWhiteboard from "@/images/whiteboard.jpg";
+
 
 function Section({
   title,
@@ -305,6 +303,47 @@ export const metadata: Metadata = {
     "We believe in efficiency and maximizing our resources to provide the best value to our clients.",
 };
 
+function FinishingTypes() {
+  const images = [
+    "Finishing Laser Cut Gerigi.JPG",
+    "Finishing PICOT.JPG",
+    "Finishing Sonic.JPG",
+    "Finishing_Eyelash.JPG",
+    "Finishing_Laser Cut.JPG",
+    "Finishing_Laser cut 3 titik (kecil).JPG",
+    "Finishing_Rawis.JPG",
+    "Finishing_cut 3 titik besar.JPG",
+    "Finishing_jahit tepi.JPG",
+    "Finishing_laser cut 6 titik.JPG"
+  ];
+
+  return (
+    <div className="mt-24 sm:mt-32 lg:mt-40">
+      <SectionIntro title="Finishing Types" eyebrow="Our Process">
+        <p>Here are some examples of our high-quality finishing options tailored to your needs.</p>
+      </SectionIntro>
+      <Container className="mt-16">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+          {images.map((img, idx) => (
+            <div key={idx} className="relative aspect-square overflow-hidden rounded-lg bg-neutral-100">
+              <img
+                src={`/images/finishing/${img}`}
+                alt={img.split('.')[0]}
+                className="h-full w-full object-cover transition-transform duration-300 hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/20 flex items-end p-4 pointer-events-none">
+                <span className="text-white text-sm font-medium drop-shadow-md">
+                  {img.split('.')[0]}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </Container>
+    </div>
+  );
+}
+
 export default function Process() {
   return (
     <>
@@ -319,11 +358,9 @@ export default function Process() {
       <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
         <DigitalPrinting />
         <FlatPrinting />
-        <YarnTwisting />
-        <Weaving />
-        <Knitting />
-        <DyeingFinishing />
       </div>
+
+      <FinishingTypes />
 
       <Values />
 

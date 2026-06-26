@@ -7,6 +7,7 @@ import motif from "@/data/motif.json";
 import phasmina from "@/data/phasmina.json";
 import prayer from "@/data/prayerset.json";
 import apparel from "@/data/apparell.json";
+import rfp from "@/data/rfp.json";
 import Product4Row from "@/components/Product4Row";
 
 function ProductShowcase() {
@@ -49,6 +50,14 @@ function ProductShowcase() {
           products={apparel}
           title="Apparel"
           slug="apparel"
+        ></Product4Row>
+      </Container>
+
+      <Container className="mt-20 sm:mt-24 lg:mt-32">
+        <Product4Row
+          products={rfp}
+          title="Ready For Print (RFP)"
+          slug="rfp"
         ></Product4Row>
       </Container>
     </>

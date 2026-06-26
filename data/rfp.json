@@ -1,0 +1,80 @@
+[
+  {
+    "name": "RFD - Rubiya",
+    "image": "/images/rfp/RFD - Rubiya.JPG",
+    "material": "Rubiya",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD - Silky Versace",
+    "image": "/images/rfp/RFD - Silky Versace.JPG",
+    "material": "Silky Versace",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD - Ultra Aurora",
+    "image": "/images/rfp/RFD - Ultra Aurora.JPG",
+    "material": "Ultra Aurora",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD - Ultra Cifrus",
+    "image": "/images/rfp/RFD - Ultra Cifrus.JPG",
+    "material": "Ultra Cifrus",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD - Ultra Fine 40 MF",
+    "image": "/images/rfp/RFD - Ultra Fine 40 MF.JPG",
+    "material": "Ultra Fine 40 MF",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD - Ultra Fine 40",
+    "image": "/images/rfp/RFD - Ultra Fine 40.JPG",
+    "material": "Ultra Fine 40",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD - Ultra Fine Kertas",
+    "image": "/images/rfp/RFD - Ultra Fine Kertas.JPG",
+    "material": "Ultra Fine Kertas",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD - Ultra Fine MF",
+    "image": "/images/rfp/RFD - Ultra Fine MF.JPG",
+    "material": "Ultra Fine MF",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD - Ultra Lavera",
+    "image": "/images/rfp/RFD - Ultra Lavera.JPG",
+    "material": "Ultra Lavera",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD - Ultra Silky MF",
+    "image": "/images/rfp/RFD - Ultra Silky MF.JPG",
+    "material": "Ultra Silky MF",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD - Ultra Spekta",
+    "image": "/images/rfp/RFD - Ultra Spekta.JPG",
+    "material": "Ultra Spekta",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD - Ultra Voal",
+    "image": "/images/rfp/RFD - Ultra Voal.JPG",
+    "material": "Ultra Voal",
+    "deskripsi": "Ready for print fabric."
+  },
+  {
+    "name": "RFD Voal Bintang",
+    "image": "/images/rfp/RFD Voal Bintang.JPG",
+    "material": "Voal Bintang",
+    "deskripsi": "Ready for print fabric."
+  }
+]

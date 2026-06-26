@@ -94,15 +94,15 @@ export default function ProductCard({ product }: ProductCardProps) {
               </motion.button>
               <div className="flex flex-col md:flex-row gap-8 h-full">
                 <motion.div 
-                  className="md:w-2/3 h-full flex items-center justify-center"
+                  className="md:w-2/3 h-full flex items-center justify-center overflow-hidden rounded-lg group"
                   layoutId={`product-image-${product.name}`}
                 >
                   <Image
                     src={product.image}
                     alt={product.name}
-                    width={2000}  // Tambah ukuran secara signifikan
+                    width={2000}
                     height={2000} 
-                    className="max-w-full max-h-full object-contain rounded-lg"
+                    className="max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-[1.5] cursor-zoom-in"
                   />
                 </motion.div>
                 <div className="md:w-1/3 overflow-y-auto pr-4">
